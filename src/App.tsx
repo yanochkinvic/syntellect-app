@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import AutocompleteInput from "./Autocomplete";
 import ControlledInputWithButtons from "./ControlledInputWithButtons";
 
 function App() {
@@ -60,6 +61,10 @@ function App() {
           },
         ]}
       />
+      <br />
+      <AutocompleteInput prompts={3} />
+      <br />
+      <AutocompleteInput prompts={10} />
     </div>
   );
 }
